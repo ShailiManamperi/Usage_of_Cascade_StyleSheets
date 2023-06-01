@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .logo {
+            font-family: sans-serif;
+            font-weight: 900;
+            font-size: 50px;
+            margin-left: 30px;
+            display: inline;
+            color: red;
+        }
+
+        .logo::after {
+            content: "®";
+            font-size: 20px;
+            position: absolute;
+            font-weight: bold;
+            top: 15px;
+        }
+
+        .nav-bar {
+            display: inline;
+        }
+
+        .header {
+            display: inline;
+            position: relative;
+            border: 3px solid black;
+        }
+
+        .ul-header {
+            display: inline;
+            position: absolute;
+            top: 35px;
+            right: 50px;
+        }
+
+        .header-list {
+            display: inline;
+            padding-right: 15px;
+        }
+
+        .main-Section {
+            background-color: whitesmoke;
+            padding: 8px;
+            border: 2px solid black;
+        }
+
+        .nav-bar a:link {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: 600;
+        }
+
+        .nav-bar a:hover {
+            text-decoration: none;
+            color: red;
+        }
+
+        .side-bar {
+            position: absolute;
+            width: 100%;
+            height: 655px;
+            background-color: red;
+            display: inline;
+        }
+
+        .ul-side-bar {
+            padding-top: 200px;
+            color: white;
+            position: absolute;
+            top: 20px;
+            left: 110px;
+        }
+
+        .side-bar-list {
+            padding-bottom: 30px;
+            list-style-type: none;
+        }
+
+        .side-bar-list a:link {
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+        }
+
+        .side-bar-list a:hover {
+            color: black;
+            font-weight: 600;
+        }
+
+        .main-container {
+            background-color: black;
+            width: 300px;
+            height: 600px;
+            position: absolute;
+        }
+
+        img {
+            display: inline;
+            width: 300px;
+            height: 200px;
+            padding: 5px 5px;
+        }
+
+        .img-container {
+            position: absolute;
+            top: 10px;
+            right: 12px;
+            border: 2px solid black;
+        }
+
+        .para-container {
+            position: absolute;
+            top: 250px;
+            left: 305px;
+        }
+
+        .footer-container {
+            background-color: white;
+            width: 100%;
+            height: 55px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: gray;
+        }
+
+        .footer-para {
+            font-weight: 900;
+            text-align: center;
+            justify-content: center;
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+<section class="main-Section">
+    <p class="logo">IJSE</p>
+    <div class="nav-bar">
+        <ul class="ul-header">
+            <li class="header-list">
+                <a href="#">Home</a>
+            </li>
+            <li class="header-list">
+                <a href="#">Services</a>
+            </li>
+            <li class="header-list">
+                <a href="#">Contacts</a>
+            </li>
+            <li class="header-list">
+                <a href="#">About US</a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="side-bar">
+    <section class="main-content">
+        <div class="main-container">
+            <div class="side-bar-nav">
+                <ul class="ul-side-bar">
+                    <li class="side-bar-list">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="side-bar-list">
+                        <a href="#">Services</a>
+                    </li>
+                    <li class="side-bar-list">
+                        <a href="#">Contacts</a>
+                    </li>
+                    <li class="side-bar-list">
+                        <a href="#">About US</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div class="img-container">
+        <img src="Assignment03/assert/image1.jpg" alt="ijse-photo" />
+        <img src="Assignment03/assert/image1.jpg" alt="ijse-photo" />
+        <img src="Assignment03/assert/image1.jpg" alt="ijse-photo" />
+    </div>
+
+    <div class="para-container">
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi eos
+            dolore ipsa porro, magni provident consectetur culpa, repudiandae
+            harum earum minima nostrum eius incidunt qui, dolorem voluptatibus
+            necessitatibus. Reprehenderit, tempora?Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Modi eos dolore ipsa porro, magni
+            provident consectetur culpa, repudiandae harum earum minima nostrum
+            eius incidunt qui, dolorem voluptatibus necessitatibus. Reprehenderit,
+            tempora?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi
+            eos dolore ipsa porro, magni provident consectetur culpa, repudiandae
+            harum earum minima nostrum eius incidunt qui, dolorem voluptatibus
+            necessitatibus. Reprehenderit, tempora?
+        </p>
+        <p><br>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi eos
+            dolore ipsa porro, magni provident consectetur culpa, repudiandae
+            harum earum minima nostrum eius incidunt qui, dolorem voluptatibus
+            necessitatibus. Reprehenderit, tempora?Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Modi eos dolore ipsa porro, magni
+            provident consectetur culpa, repudiandae harum earum minima nostrum
+            eius incidunt qui, dolorem voluptatibus necessitatibus. Reprehenderit,
+            tempora?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi
+            eos dolore ipsa porro, magni provident consectetur culpa, repudiandae
+            harum earum minima nostrum eius incidunt qui, dolorem voluptatibus
+            necessitatibus. Reprehenderit, tempora?
+        </p><br>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi eos
+            dolore ipsa porro, magni provident consectetur culpa, repudiandae
+            harum earum minima nostrum eius incidunt qui, dolorem voluptatibus
+            necessitatibus. Reprehenderit, tempora?Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Modi eos dolore ipsa porro, magni
+            provident consectetur culpa, repudiandae harum earum minima nostrum
+            eius incidunt qui, dolorem voluptatibus necessitatibus. Reprehenderit,
+            tempora?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi
+            eos dolore ipsa porro, magni provident consectetur culpa, repudiandae
+            harum earum minima nostrum eius incidunt qui, dolorem voluptatibus
+            necessitatibus. Reprehenderit, tempora?
+        </p>
+    </div>
+    <div class="footer-container">
+        <p class="footer-para">Developed By IJSE</p>
+    </div>
+</section>
+</body>
+</html>
